@@ -22,6 +22,8 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          light: "hsl(var(--primary-light))",
+          dark: "hsl(var(--primary-dark))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -38,6 +40,7 @@ export default {
         accent: {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
+          light: "hsl(var(--accent-light))",
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
@@ -46,6 +49,20 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        assessment: {
+          progress: "hsl(var(--assessment-progress))",
+          success: "hsl(var(--assessment-success))",
+          warning: "hsl(var(--assessment-warning))",
+          info: "hsl(var(--assessment-info))",
+        },
+        values: {
+          autonomy: "hsl(var(--values-autonomy))",
+          impact: "hsl(var(--values-impact))",
+          creativity: "hsl(var(--values-creativity))",
+          growth: "hsl(var(--values-growth))",
+          service: "hsl(var(--values-service))",
+          stability: "hsl(var(--values-stability))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
@@ -57,6 +74,20 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        'gradient-primary': 'var(--gradient-primary)',
+        'gradient-assessment': 'var(--gradient-assessment)',
+        'gradient-insight': 'var(--gradient-insight)',
+      },
+      boxShadow: {
+        'card': 'var(--shadow-card)',
+        'assessment': 'var(--shadow-assessment)',
+        'insight': 'var(--shadow-insight)',
+      },
+      transitionTimingFunction: {
+        'smooth': 'var(--transition-smooth)',
+        'bounce': 'var(--transition-bounce)',
       },
       borderRadius: {
         lg: "var(--radius)",
